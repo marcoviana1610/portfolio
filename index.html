@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="shortcut icon" href="components/images/favicon.webp" type="image/x-icon">
 
 
     <title>Marco Viana - Portfólio</title>
 </head>
 <body>
-    <header>
+    <header id="topo">
     <div class="section-1-bg">
         <aside>
             <div class="icon-menu" onclick="abrirmenu()">
@@ -59,7 +60,7 @@
             <h1>Marco Viana</h1>
             <h2>Desenvolvedor Front-end</h2>
             <h5>"<i>Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema.</i>"</h5>
-            <button class="btn">Ver mais</button>
+            <a href="#aboutme"><button class="btn">Ver mais</button></a>
 
         <div class="numeros">
             <div class="title">
@@ -86,7 +87,7 @@
 
         </div><!--image-->
 
-        <div class="sobre-mim">
+        <div class="sobre-mim" id="aboutme">
             
                 <h1>Sobre mim</h1>
 
@@ -101,7 +102,7 @@
                 <br> Diariamente me atualizo e aprendo sobre novas tecnologias e busco aprimorar <br>naquilo que ja tenho algum conhecimento.
 
 
-                <button class="btn">Ver mais</button>
+                <!-- <button class="btn">Ver mais</button> -->
         </div><!--Sobre mim-->
     </section><!--C-Sobre-->
 
@@ -153,13 +154,11 @@
 
             <img src="components/images/project-ney.png" alt="">
 
-            <div class="img-3">
-                <img src="components/images/landing page.png">
-            </div>
+            <img src="components/images/landing page.png">
 
-            <div class="img-4">
-                <img src="components/images/todolist.png" alt="Lista de tarefas">
-            </div>
+            <img src="components/images/todolist.png">
+
+            <img src="components/images/Netflix.png">
 
         </div><!--IMG PROJECT-->
     </section><!--Projetos-->
@@ -195,7 +194,10 @@
             <span> ©   Marco Viana - 2023. Todos os direitos reservados</span>
         </div>
 
-
+        <a href="#topo"><button id="btn-rdp"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"/>
+            <path fill-rule="evenodd" d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+          </svg></button></a>
 
     </section>
 
