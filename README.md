@@ -2,6 +2,6 @@
 
 
 
-<h4>Veja meu portfolio em:</h4>
+<h4>Deploy</h4>
 
-https://marcoviana1610.github.io/portfolio/
+https://moonlit-pavlova-07cbb9.netlify.app/
