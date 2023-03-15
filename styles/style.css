@@ -281,7 +281,7 @@ aside{
 
 /* _____________________________RESPONSIVO SOBRE MIM__ */
 
-@media screen and (max-width: 414px) {
+@media (max-width: 490px) {
 
 *{
     margin: 0;
@@ -289,7 +289,7 @@ aside{
     box-sizing: border-box;
 }
     .image img{
-        width: 350px;
+        width: 100%;
         height: auto;
     }
 
@@ -381,7 +381,7 @@ aside{
 /* __________________________RESPONSIVO CARDS___ */
 
 
-@media screen and (max-width: 750px) {
+@media (max-width: 490px) {
 
     .card{
         margin-top: 35px;
@@ -443,7 +443,7 @@ aside{
 /*MEDIA PROJETOS*/
 
 
-@media screen and (max-width: 414px){
+@media (max-width: 490px){
 
     .img-projetos img{
         width: 300px;
